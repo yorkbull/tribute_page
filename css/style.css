@@ -8,14 +8,40 @@
 }
 
 #image {
-  width: 400px;
-  height: 550px;
+  width: 20%;
+  height: 30%;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
+h2, p, a {
+  font-family: 'Akaya Telivigala', cursive;
+  font-size: 20px;
+}
+
 #img-caption {
+  text-align: center;
+  margin: 20px 0;
+}
+
+#tribute-info {
+  margin: 50px 20px;
+}
+
+#tribute-info:hover {
+  border: 2px red ridge;
+  border-radius: 10%;
+  box-shadow: 10px 5px 5px red;
+}
+
+#tribute-info h2 {
+  text-align: center;
+  font-size: 25px;
+  color: red;
+}
+
+#tribute-info p {
   text-align: center;
 }
 .row {
@@ -51,4 +77,15 @@
     flex: 100%;
     max-width: 100%;
   }
+}
+
+#tribute-link {
+  margin-top: 20px;
+  margin-left: 50%;
+  text-decoration: none;
+  color: red;
+}
+
+#tribute-link:hover {
+  border: 2px red solid;
 }
